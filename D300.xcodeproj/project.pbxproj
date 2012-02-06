@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		EC1401150EFBBC4800D56243 /* D300Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1401140EFBBC4800D56243 /* D300Controller.m */; };
+		EC14018C0EFBC1E500D56243 /* Type0001 Module.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC14018A0EFBC1E500D56243 /* Type0001 Module.bundle */; };
+		EC1401970EFBC1F100D56243 /* libNkPTPDriver.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC1401890EFBC1E500D56243 /* libNkPTPDriver.dylib */; };
+		EC1402BF0EFBD22B00D56243 /* CameraWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1402BE0EFBD22B00D56243 /* CameraWindowController.xib */; };
+		EC1402C30EFBD24D00D56243 /* CameraWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1402C20EFBD24D00D56243 /* CameraWindowController.m */; };
+		EC1403860EFBDB8C00D56243 /* Maid3Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1403850EFBDB8C00D56243 /* Maid3Helpers.m */; };
+		EC1403E90EFBE14600D56243 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E10EFBE14600D56243 /* camera.png */; };
+		EC1403EA0EFBE14600D56243 /* capture-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E20EFBE14600D56243 /* capture-blue.png */; };
+		EC1403EB0EFBE14600D56243 /* capture-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E30EFBE14600D56243 /* capture-orange.png */; };
+		EC1403EC0EFBE14600D56243 /* live.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E40EFBE14600D56243 /* live.png */; };
+		EC1403ED0EFBE14600D56243 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E50EFBE14600D56243 /* refresh.png */; };
+		EC1403EE0EFBE14600D56243 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E60EFBE14600D56243 /* save.png */; };
+		EC1403EF0EFBE14600D56243 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E70EFBE14600D56243 /* timer.png */; };
+		EC1403F00EFBE14600D56243 /* yellowflag.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1403E80EFBE14600D56243 /* yellowflag.png */; };
+		EC14FFBB0EFACE1C00D56243 /* CallBack.c in Sources */ = {isa = PBXBuildFile; fileRef = EC14FFB40EFACE1C00D56243 /* CallBack.c */; };
+		EC14FFBC0EFACE1C00D56243 /* Function.c in Sources */ = {isa = PBXBuildFile; fileRef = EC14FFB60EFACE1C00D56243 /* Function.c */; };
+		EC14FFC00EFACE3700D56243 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EC14FFBF0EFACE3700D56243 /* Debug.xcconfig */; };
+		EC14FFCE0EFACEC300D56243 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC14FFCD0EFACEC300D56243 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC1401EA0EFBC4DE00D56243 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				EC1401970EFBC1F100D56243 /* libNkPTPDriver.dylib in CopyFiles */,
+				EC14018C0EFBC1E500D56243 /* Type0001 Module.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* D300_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D300_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* D300.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D300.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1401130EFBBC4800D56243 /* D300Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D300Controller.h; sourceTree = "<group>"; };
+		EC1401140EFBBC4800D56243 /* D300Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D300Controller.m; sourceTree = "<group>"; };
+		EC1401890EFBC1E500D56243 /* libNkPTPDriver.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libNkPTPDriver.dylib; path = "Nikon Binaries/libNkPTPDriver.dylib"; sourceTree = "<group>"; };
+		EC14018A0EFBC1E500D56243 /* Type0001 Module.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Type0001 Module.bundle"; path = "Nikon Binaries/Type0001 Module.bundle"; sourceTree = "<group>"; };
+		EC1402BE0EFBD22B00D56243 /* CameraWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraWindowController.xib; sourceTree = "<group>"; };
+		EC1402C10EFBD24D00D56243 /* CameraWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraWindowController.h; sourceTree = "<group>"; };
+		EC1402C20EFBD24D00D56243 /* CameraWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraWindowController.m; sourceTree = "<group>"; };
+		EC1403840EFBDB8C00D56243 /* Maid3Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maid3Helpers.h; sourceTree = "<group>"; };
+		EC1403850EFBDB8C00D56243 /* Maid3Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maid3Helpers.m; sourceTree = "<group>"; };
+		EC1403E10EFBE14600D56243 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = Images/camera.png; sourceTree = "<group>"; };
+		EC1403E20EFBE14600D56243 /* capture-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "capture-blue.png"; path = "Images/capture-blue.png"; sourceTree = "<group>"; };
+		EC1403E30EFBE14600D56243 /* capture-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "capture-orange.png"; path = "Images/capture-orange.png"; sourceTree = "<group>"; };
+		EC1403E40EFBE14600D56243 /* live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = live.png; path = Images/live.png; sourceTree = "<group>"; };
+		EC1403E50EFBE14600D56243 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = Images/refresh.png; sourceTree = "<group>"; };
+		EC1403E60EFBE14600D56243 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = save.png; path = Images/save.png; sourceTree = "<group>"; };
+		EC1403E70EFBE14600D56243 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timer.png; path = Images/timer.png; sourceTree = "<group>"; };
+		EC1403E80EFBE14600D56243 /* yellowflag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowflag.png; path = Images/yellowflag.png; sourceTree = "<group>"; };
+		EC14FFB30EFACE1C00D56243 /* CtrlSample.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtrlSample.pch; sourceTree = "<group>"; };
+		EC14FFB40EFACE1C00D56243 /* CallBack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CallBack.c; sourceTree = "<group>"; };
+		EC14FFB50EFACE1C00D56243 /* CtrlSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtrlSample.h; sourceTree = "<group>"; };
+		EC14FFB60EFACE1C00D56243 /* Function.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Function.c; sourceTree = "<group>"; };
+		EC14FFB70EFACE1C00D56243 /* Maid3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maid3.h; sourceTree = "<group>"; };
+		EC14FFB80EFACE1C00D56243 /* Maid3d1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maid3d1.h; sourceTree = "<group>"; };
+		EC14FFB90EFACE1C00D56243 /* NkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NkTypes.h; sourceTree = "<group>"; };
+		EC14FFBA0EFACE1C00D56243 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EC14FFBF0EFACE3700D56243 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		EC14FFCD0EFACEC300D56243 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				EC14FFCE0EFACEC300D56243 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC1401130EFBBC4800D56243 /* D300Controller.h */,
+				EC1401140EFBBC4800D56243 /* D300Controller.m */,
+				EC1402C10EFBD24D00D56243 /* CameraWindowController.h */,
+				EC1402C20EFBD24D00D56243 /* CameraWindowController.m */,
+				EC1403840EFBDB8C00D56243 /* Maid3Helpers.h */,
+				EC1403850EFBDB8C00D56243 /* Maid3Helpers.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC14FFCD0EFACEC300D56243 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* D300.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* D300 */ = {
+			isa = PBXGroup;
+			children = (
+				EC14FFBF0EFACE3700D56243 /* Debug.xcconfig */,
+				EC14FFAF0EFACE0000D56243 /* Nikon */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = D300;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* D300_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC1403E10EFBE14600D56243 /* camera.png */,
+				EC1403E20EFBE14600D56243 /* capture-blue.png */,
+				EC1403E30EFBE14600D56243 /* capture-orange.png */,
+				EC1403E40EFBE14600D56243 /* live.png */,
+				EC1403E50EFBE14600D56243 /* refresh.png */,
+				EC1403E60EFBE14600D56243 /* save.png */,
+				EC1403E70EFBE14600D56243 /* timer.png */,
+				EC1403E80EFBE14600D56243 /* yellowflag.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				EC1402BE0EFBD22B00D56243 /* CameraWindowController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC14FFAF0EFACE0000D56243 /* Nikon */ = {
+			isa = PBXGroup;
+			children = (
+				EC1401890EFBC1E500D56243 /* libNkPTPDriver.dylib */,
+				EC14018A0EFBC1E500D56243 /* Type0001 Module.bundle */,
+				EC14FFB30EFACE1C00D56243 /* CtrlSample.pch */,
+				EC14FFB40EFACE1C00D56243 /* CallBack.c */,
+				EC14FFB50EFACE1C00D56243 /* CtrlSample.h */,
+				EC14FFB60EFACE1C00D56243 /* Function.c */,
+				EC14FFB70EFACE1C00D56243 /* Maid3.h */,
+				EC14FFB80EFACE1C00D56243 /* Maid3d1.h */,
+				EC14FFB90EFACE1C00D56243 /* NkTypes.h */,
+				EC14FFBA0EFACE1C00D56243 /* main.c */,
+			);
+			name = Nikon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* D300 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "D300" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				EC1401EA0EFBC4DE00D56243 /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = D300;
+			productInstallPath = "$(HOME)/Applications";
+			productName = D300;
+			productReference = 8D1107320486CEB800E47090 /* D300.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "D300" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* D300 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* D300 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				EC14FFC00EFACE3700D56243 /* Debug.xcconfig in Resources */,
+				EC1402BF0EFBD22B00D56243 /* CameraWindowController.xib in Resources */,
+				EC1403E90EFBE14600D56243 /* camera.png in Resources */,
+				EC1403EA0EFBE14600D56243 /* capture-blue.png in Resources */,
+				EC1403EB0EFBE14600D56243 /* capture-orange.png in Resources */,
+				EC1403EC0EFBE14600D56243 /* live.png in Resources */,
+				EC1403ED0EFBE14600D56243 /* refresh.png in Resources */,
+				EC1403EE0EFBE14600D56243 /* save.png in Resources */,
+				EC1403EF0EFBE14600D56243 /* timer.png in Resources */,
+				EC1403F00EFBE14600D56243 /* yellowflag.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				EC14FFBB0EFACE1C00D56243 /* CallBack.c in Sources */,
+				EC14FFBC0EFACE1C00D56243 /* Function.c in Sources */,
+				EC1401150EFBBC4800D56243 /* D300Controller.m in Sources */,
+				EC1402C30EFBD24D00D56243 /* CameraWindowController.m in Sources */,
+				EC1403860EFBDB8C00D56243 /* Maid3Helpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = D300_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Nikon Binaries\"",
+				);
+				PRODUCT_NAME = D300;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = D300_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Nikon Binaries\"",
+				);
+				PRODUCT_NAME = D300;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC14FFBF0EFACE3700D56243 /* Debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "D300" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "D300" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
